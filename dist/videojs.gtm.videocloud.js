@@ -178,10 +178,10 @@
     };
     sendbeacon = function(action) {
         dataLayer.push({
-          'videoCategory': eventCategory,
-          'videoAction': action,
-          'videoLabel': eventLabel,
-          'event': 'videoEvent'
+          'eventCategory': eventCategory,
+          'eventAction': action,
+          'eventLabel': eventLabel,
+          'event': 'gaEvent'
         });
 
     };
